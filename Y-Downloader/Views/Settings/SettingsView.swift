@@ -164,7 +164,7 @@ struct AboutSettingsTab: View {
                 Link("Report Issue", destination: URL(string: "https://github.com/issues")!)
             }
             
-            Text("License: MIT")
+            Text("License: GPL-3.0")
                 .font(.caption)
                 .foregroundColor(.secondary)
         }

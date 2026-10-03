@@ -12,6 +12,7 @@
   <img alt="Platform" src="https://img.shields.io/badge/platform-macOS%2014%2B-blue">
   <img alt="Swift" src="https://img.shields.io/badge/Swift-6-orange">
   <img alt="UI" src="https://img.shields.io/badge/UI-SwiftUI-informational">
+  <img alt="License" src="https://img.shields.io/badge/license-GPL--3.0-blue">
 </p>
 
 ---
@@ -298,4 +299,10 @@ ADV Downloader is a general-purpose tool. You are responsible for complying with
 
 ## License
 
-A license has not been chosen for this repository yet. Note that the ad-block converter dependency, [SafariConverterLib](https://github.com/AdguardTeam/SafariConverterLib), is licensed under **GPL-3.0**, which affects how a build that includes it can be distributed. Decide on the project's license (and on this dependency) before publishing binaries.
+ADV Downloader is free software, released under the **GNU General Public License v3.0**. See [LICENSE](LICENSE) for the full text.
+
+Copyright © 2026 ilham-fauzi.
+
+In short: you may use, study, modify and redistribute this software, provided that any distributed version (modified or not) is also licensed under GPL-3.0 and its source code is made available. The program comes with no warranty.
+
+Third-party components keep their own licenses: `yt-dlp` and `ffmpeg` are separate programs that the app runs, not parts of it; [SafariConverterLib](https://github.com/AdguardTeam/SafariConverterLib) (GPL-3.0), PunycodeSwift and swift-psl (MIT) are linked into the app.
